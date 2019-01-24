@@ -20,7 +20,8 @@ module.exports = (env) => {
 
     entry: {
       /*"home": path.resolve(__dirname, 'src/entries/home.js'),*/
-      "reactmro": path.resolve(__dirname, 'index.js'),
+      /* "reactmro": path.resolve(__dirname, 'index.js'), */
+      "home": path.resolve(__dirname, 'src/entries/home.js'),
     },
     output: {
       path: path.resolve(__dirname, 'dist'),

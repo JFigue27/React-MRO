@@ -4,7 +4,7 @@
   "description": "Basic CRUD APP",
   "main": "webpack.config.js",
   "scripts": {
-   "build:dev": "webpack-dev-server --config ./webpack.dev.config.js",
+    "build:dev": "webpack-dev-server --config ./webpack.dev.config.js",
     "build": "webpack",
     "build:local": "webpack --env.NODE_ENV=local",
     "build:prod": "webpack -p --env.NODE_ENV=production"
@@ -28,5 +28,11 @@
     "url-loader": "0.6.2",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "typeface-roboto": "0.0.54"
   }
 }
